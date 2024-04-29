@@ -2,7 +2,7 @@
 	"name": "virtual_art_gallery",
 	"description": "Explore an art gallery in your browser.",
 	"version": "1.0.0",
-	"homepage": "https://benjyazoulay.github.io/virtual-art-gallery",
+	"homepage": "https://benjyazoulay.github.io/bonnard_ai",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
