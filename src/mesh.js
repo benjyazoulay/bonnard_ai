@@ -29,7 +29,7 @@ module.exports = (regl, data, useReflexion) => {
         }
 
         void main() {
-			vec3 wallLight = texture2D(wallTexture, vec2(v_pos.x + v_pos.z, 7.0-v_pos.y)/8.0).rgb;
+			vec3 wallLight = texture2D(wallTexture, vec2(v_pos.x + v_pos.z, 10.0-v_pos.y)/12.0).rgb;
 			float brightnessFactor = 1.3;
 			vec3 totalLight = wallLight * brightnessFactor;
 			float dist = length(v_relativepos);
